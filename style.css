@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4e4ba;
+}
+
+.container{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 40vh;
+}
+
+div button,input{
+    width: 100%;
+    outline:none;
+    border-radius: 1rem;
+    border:none;
+}
+
+div input{
+    border: 1px solid lightgrey;
+    font-size: 1rem;
+    height: 2rem;
+    padding-left:0.5rem;
+}
+
+div button{
+    height: 2rem;
+    background-color: antiquewhite;
+    cursor: pointer;  
+}
+
+.search-area{
+    display: flex;
+    justify-content: center;
+}
+
+.weather{
+    margin-top: 2rem;
+}
